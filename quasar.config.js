@@ -221,3 +221,11 @@ module.exports = configure(function (ctx) {
     }
   }
 });
+
+return {
+  framework: {
+    plugins: [
+      'Notify'
+    ],
+  }
+}
